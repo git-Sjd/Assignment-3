@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body {
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#menu-bar {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    font-weight: 600;
+    color: rgb(151, 149, 149);
+    border-bottom: 4px solid white;
+    border-bottom-left-radius:10%;
+    border-bottom-right-radius: 10%;
+}
+.menu:hover{
+    cursor: pointer;
+    color: black;
+    transform: scale(1.1);
+    border-bottom: 4px solid blue;
+    border-bottom-left-radius:10%;
+    border-bottom-right-radius: 10%;
+}
+#account-btn{
+    font-size: 16px;
+    font-weight: 400;
+    padding:20px 32px;
+    color: #A389CC;
+    background-color: #FFD8DB;
+    border-radius: 20px;
+    border: none;
+}
+#account-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color:#f899a1;
+}
+
+#header-bar {
+    width: 90%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-main {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5% auto;
+}
+#text-warper{
+    width: 40%;
+}
+#heading{
+    margin: 0;
+    font-size: 52px;  
+}
+#blue{
+    height: 10px;
+    width: 10px;
+    background-color:#5243C0;
+    display: inline-block;
+}
+#description{
+    color: rgb(111, 109, 109);
+    font-weight: 300;
+}
+#up-arrow{
+    margin-top: 15px;
+    cursor: pointer;
+    color: rgb(188, 186, 186);
+}
+#down-arrow{
+    cursor: pointer;
+}
+#newAcc-btn{
+    font-size: 16px;
+    font-weight: 400;
+    padding:20px 32px;
+    color: #ffffff;
+    background-color: #5243C0;
+    border-radius: 20px;
+    border: none;
+}
+#newAcc-btn:hover{
+    cursor: pointer;
+    background-color:#120480; ;
+    
+}
+#btn-warpper{
+    width: 70%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#image-warper{
+    width: 55%;
+}
+#user-wraper{
+    margin-top: 15%;
+}
+.user-details-warper{
+    background-color: rgb(234, 231, 231);
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+/* .tick{
+    width: 10%;
+    background-image:url(./tick-gray.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+
+} */
+.user-details-warper:hover{
+    cursor: pointer;
+    background-color: white;
+    background-image: url(tick-blue.png);
+    background-repeat: no-repeat;
+    /* border-radius: 10px; */
+}
+.card{
+    display: inline-block;
+    /* margin-top: 4%; */
+    width: 20px;
+    height: 10px;
+    border-radius: 5px;
+}
+#card1{
+    background-color: #FED7DA;
+}
+#card2{
+    background-color: #FD6534;
+}
+#card3{
+    background-color:#9ED095;
+}
+#card4{
+    background-color: #FFE4A0;
+}
+.user-details-warper p{
+    font-size: 14px;
+    text-align: left;
+}
+.date{
+    color:gray;
+}
+/* .user-pic{
+    border: 1px solid black;
+}
+.name{
+    text-align: left;
+} */
