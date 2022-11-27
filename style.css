@@ -123,11 +123,27 @@ body {
     border: 1px solid black;
 
 } */
+.user-details-warper:hover .tick{
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url(./tick-blue.png);
+    background-repeat: no-repeat;
+    z-index: 10;
+    /* border-radius: 10px; */
+}
+.user-details-warper:hover .tick img{
+    display: none;
+}
+
+.user-details-warper div:nth-child(2){
+    width: 40%;
+    border: 1px solid black;
+}
+
 .user-details-warper:hover{
     cursor: pointer;
     background-color: white;
-    background-image: url(tick-blue.png);
-    background-repeat: no-repeat;
     /* border-radius: 10px; */
 }
 .card{
